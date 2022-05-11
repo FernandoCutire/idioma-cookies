@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pedir el idioma del usuario</title>
+        <script language="javascript" type="text/javascript">
+            function enviarIdioma (idioma) {
+                location.href = "grabarCookie.php?idiomaUsuario=" + idioma;
+            }
+        </script>
+    </head>
+    <body>
+        <a href="javascript:enviarIdioma('sp')">
+            Ver la versión del sitio en español
+        </a>
+        <br>
+        <a href="javascript:enviarIdioma('en')">
+            View the english version of the site
+        </a>
+    </body>
+</html>
